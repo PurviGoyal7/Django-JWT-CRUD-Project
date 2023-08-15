@@ -11,10 +11,39 @@ This Django project focuses on building a web application that allows users to m
 - Item Management
 - JWT Token Handling
 
+## Steps to run this project in local System
+
+1. Clone the project from github
+```bash
+  git clone https://github.com/PurviGoyal7/Django-JWT-CRUD-Project.git
+```
+
+
+2. Go to the project directory
+```bash
+  cd Django-JWT-CRUD-Project
+```
+
+3. Install and start mysql serevr
+
+3. Install Requirements for the project
+```bash
+  pip install -r requirements.txt
+```
+
+4. Run migrations
+```bash
+  python manage.py makemigrations
+  python manage.py migrate
+```
+
+5. Run project
+```bash
+  python manage.py runserver
+```
+
 
 ## API Reference
-
-
 Please find API Documentation [here](https://documenter.getpostman.com/view/26434083/2s9Xy6oojy)
 
 ## Database Schema 
